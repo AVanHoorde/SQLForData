@@ -7,7 +7,7 @@ import psycopg2
 # database
 def dbconnect():
     try:
-        connection = psycopg2.connect(host="ec2-46-137-177-160.eu-west-1.compute.amazonaws.com",database="dbntjps2ogiaoe", user="jqwpptjnjyvaqw", password="cb6d58e6c0a9e078767b32777fe990054d317a029116a89fd35a8a29e974dcfc")
+        connection = psycopg2.connect(host="ec2-46-137-177-160.eu-west-1.compute.amazonaws.com", database="dbntjps2ogiaoe", user="jqwpptjnjyvaqw", password="cb6d58e6c0a9e078767b32777fe990054d317a029116a89fd35a8a29e974dcfc")
         # create a cursor
         cur = connection.cursor()
         # execute a statement
